@@ -56,9 +56,9 @@ function divide(x, y) {
 function sonIguales(x, y) {
   if (x === y) {
     return true;
-  }// Devuelve "true" si "x" e "y" son iguales
+  } else {// Devuelve "true" si "x" e "y" son iguales
   return false;
-  // De lo contrario, devuelve "false"
+  }// De lo contrario, devuelve "false"
   // Tu código:
 }
 
@@ -150,7 +150,7 @@ function combinarNombres(nombre, apellido) {
 }
 
 function obtenerSaludo(nombre) {
-  var saludo = 'Hola ' + nombre´+ '!';
+  var saludo = 'Hola ' + nombre + '!';
   return saludo;// Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
