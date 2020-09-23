@@ -63,10 +63,8 @@ function sonIguales(x, y) {
 }
 
 function tienenMismaLongitud(str1, str2) {
-  if (str1.length === str2.length) {
-    return true;
-  }
-  return false;// Devuelve "true" si las dos strings tienen la misma longitud
+  return str1.length === str2.length;
+  // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
 }
@@ -74,26 +72,27 @@ function tienenMismaLongitud(str1, str2) {
 function menosQueNoventa(num) {
   if (num < 90) {
     return true;// Devuelve "true" si el argumento de la función "num" es menor que noventa
-  }// De lo contrario, devuelve "false"
-  // Tu código:
+  } else {
+    return false;// De lo contrario, devuelve "false"
+  }// Tu código:
 }
 
 function mayorQueCincuenta(num) {
-  if (num > 50) {
-    return true;// Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
-  }// De lo contrario, devuelve "false"
+  return num > 50;// Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
+  // De lo contrario, devuelve "false"
   // Tu código:
 }
 
 function obtenerResto(x, y) {
-  var resto = x % y;
-  return resto;// Obten el resto de la división de "x" entre "y"
+  return x % y;// Obten el resto de la división de "x" entre "y"
   // Tu código:
 }
 
 function esPar(num) {
   if (num % 2 === 0) {
-    return true;// Devuelve "true" si "num" es par
+    return true;
+  } else {
+    return false;// Devuelve "true" si "num" es par
   }// De lo contrario, devuelve "false"
   return false;// Tu código:
 }
@@ -101,64 +100,66 @@ function esPar(num) {
 function esImpar(num) {
   if (num % 2 === 1) {
     return true;// Devuelve "true" si "num" es impar
+  } else {
+    return false;
   }// De lo contrario, devuelve "false"
   return false;// Tu código:
 }
 
 function elevarAlCuadrado(num) {
-  var cuad = Math.pow(num, 2);
-  return cuad;// Devuelve el valor de "num" elevado al cuadrado
+  return Math.pow(num, 2);
+  // Devuelve el valor de "num" elevado al cuadrado
   // ojo: No es raiz cuadrada!
   // Tu código:
 }
 
 function elevarAlCubo(num) {
-  var cubo = Math.pow(num, 3);// Devuelve el valor de "num" elevado al cubo
-  return cubo;// Tu código:
+  return num * num * num;// Devuelve el valor de "num" elevado al cubo
+  // Tu código:
 }
 
 function elevar(num, exponent) {
-  var pot = Math.pow(num, exponent);
-  return pot;// Devuelve el valor de "num" elevado al exponente dado en "exponent"
+  return = Math.pow(num, exponent);
+  // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
 }
 
 function redondearNumero(num) {
-  var red = Math.round(num);
-  return red;// Redondea "num" y devuélvelo
+  return = Math.round(num);
+  // Redondea "num" y devuélvelo
   // Tu código:
 }
 
 function redondearHaciaArriba(num) {
-  var tec = Math.ceil(num);
-  return tec;// Redondea "num" hacia arriba y devuélvelo
+  return = Math.ceil(num);
+  // Redondea "num" hacia arriba y devuélvelo
   // Tu código:
 }
 
 function agregarSimboloExclamacion(str) {
-  var nuevastr = str + '!';
-  return nuevastr;// Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
+  return = str + '!';
+  // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
 }
 
 function combinarNombres(nombre, apellido) {
-  var nomape = nombre + apellido;
-  return nomape;// Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
+  var combinado = nombre + ' ' + apellido;
+  return combinado;// Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
 }
 
 function obtenerSaludo(nombre) {
-  var saludo = 'Hola ' + nombre + '!';
-  return saludo;// Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
+  return saludo = 'Hola ' + nombre + '!';
+  // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
-  var area = alto * ancho;
-  return area;// Retornar el area de un cuadrado teniendo su altura y ancho
+  return = alto * ancho;
+  // Retornar el area de un cuadrado teniendo su altura y ancho
   // Tu código:
 }
 
