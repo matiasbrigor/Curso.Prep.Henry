@@ -1,0 +1,5 @@
+for es una herramienta parecida a una función a la que le metemos tres argumentos. Uno es una variable y su valor inicial, segundo una condición y tercero una acción referida a la variable. Funciona haciendo algo con esa variable, luego verifica si la condición se cumple y luego transforma la variable de acuerdo al tercer argumento. Después usa el nuevo valor de la variable para volver a realizar el ciclo.
+
+El operador lógico && es el equivalente a la conjunción "y". Se ubica siempre entre dos operandos, que son condiciones. Si las dos condiciones se cumplen, o son true, la conjunción && es true.
+El || es equivalente al "or" y resulta true cuando uno de los operandos es true, en otro caso es false.
+El signo ! es de negación, se aplica a un operando y revierte su valor de verdad, es decir, si es true, será false y si es false, será true.
