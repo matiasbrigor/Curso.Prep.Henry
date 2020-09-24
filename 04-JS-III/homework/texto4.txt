@@ -1,0 +1,1 @@
+Un array es un conjunto de elementos separados por coma y puestos entre corchetes. Sirve para agrupar elementos que queremos especificar todos juntos en lugar de almacenar cada elemento del array para una variable respectiva.
